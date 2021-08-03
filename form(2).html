@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pembelian Barang</title>
+</head>
+<body>
+        <fieldset>
+            <h1> FORM PEMBELIAN BARANG </h1>
+            <p><hr>
+                <label> Nama Barang : </label>
+                <select name="namabarang">
+                    <option value="monitor"> Monitor </option>
+                    <option value="tv"> TV </option>
+                    <option value="kulkas"> Kulkas </option>
+                </select>
+            </p>
+            <p>
+                <Label> Jumlah </Label>
+                <input type="text" id="jumlah">
+            </p>
+            <p>
+                <Label> Status </Label>
+                <select name="status">
+                    <option value="pelanggan"> Pelanggan</option>
+                    <option value="bukanpelanggan"> Bukan Pelanggan</option>
+                </select>
+            </p>
+            <p>
+                <Label> Harga </Label>
+                <input type="text" id="harga">
+            </p>
+            <p>
+                <Label> Total :</Label>
+                <textarea id="total"> </textarea>
+            </p>
+            <p>
+                <Label> Diskon 10% :</Label>
+                <textarea id="diskon"> </textarea>
+            </p>
+            <p>
+                <Label> Bayar :</Label>
+                <textarea id="bayar"> </textarea>
+            </p><hr>
+            <p> 
+                <button onclick="hasil()"> proses </button>
+                <button> reset </button>
+            </p>
+            <script type="text/javascript" src="pembelian 2.js"> </script>
+        </fieldset> 
+</body>
+</body>
+</html>
